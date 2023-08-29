@@ -1,0 +1,89 @@
+/* src/components/Introduction.css */
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 40px;
+    margin-bottom: 4%;
+  }
+  
+  .profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 400px; /* Adjust the left margin to your preference */
+    margin-right: 100px; /* Adjust the right margin to your preference */
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 60px;
+
+  }
+  
+  .text h1 {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 1px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .text h2 {
+    font-size: 56px;
+    line-height: 10px;
+    margin-bottom: 0px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive; /* Apply the font-family */
+
+  }
+  
+  .text p {
+    font-size: 24px;
+    line-height: 70px;
+  }
+  
+.buttons {
+    display: flex;
+    gap: 20px; /* Add some space between the buttons */
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+  
+  
+  .cv-button,
+  .contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .cv-button a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .cv-button {
+    background-color: whitesmoke; /* Blue color for the CV button */
+    color: black;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 150px;
+    text-decoration: none;
+    line-height: 0%;
+  }
+  
+  .contact-button {
+    background-color: black; /* Teal color for the Contact button */
+    border-radius: 8px;
+    border: 2px solid black;
+    color: white;
+    width: 150px;
+  }

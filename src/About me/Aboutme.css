@@ -1,0 +1,104 @@
+/* src/components/AboutMe.css */
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    padding: 0px;
+  }
+  
+  .center-content {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .center-content p{
+    margin-bottom: 2px;
+  }  
+  .about-me-content {
+    text-align: center;
+  }
+  
+  .about-me-content h1 {
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom:  0px;
+  }
+  
+  .about-me-content p {
+    font-size: 18px;
+  }
+  
+  
+.about-me-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items at the top of the container */
+    margin-top: 40px;
+  }
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5rem;
+    height: 80vh;
+    margin-left: 80px; /* Add margin to the left */
+  }
+  
+  .profile img {
+    border-radius: 20%;
+    width: 400px;
+    height: 400px;
+    margin-right: 60px; /* Adjust margin-right if needed */
+  }
+
+  .cards {
+    flex: 1;
+    margin-right: 20px; /* Add margin-right to separate from the right edge */
+    display: flex;
+    margin-top: 5%;
+    flex-direction: row; /* Align cards horizontally */
+  }
+  
+  .card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 300px;
+    margin-right: 20px;
+    border: 1px solid black; /* Add a black border */
+  }
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 5px; /* Adjust margin to reduce vertical spacing */
+    text-align: center; /* Center the h3 within the card */
+    display: flex;
+    align-items: center; /* Align the icon and text vertically */
+    justify-content: center; /* Center both horizontally */
+  }
+
+.card p {
+    font-size: 16px;
+    text-align: center; /* Center the p tag within the card */
+  }
+
+  .about-me-cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+  }
+  .about-me-paragraph {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .about-me-paragraph p {
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif; /* Apply 'Roboto' font-family */
+    font-size: 18px;
+  }

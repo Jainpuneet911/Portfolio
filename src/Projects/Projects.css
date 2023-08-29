@@ -1,0 +1,85 @@
+/* src/components/Projects.css */
+
+.projects-container {
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .projects-heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .projects-heading h1 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  
+
+  .project-cards {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .project-card {
+    padding: 20px;
+    border-radius: 20px;
+    width: 22%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px; /* Add margin to the sides */
+  }
+  
+  
+  
+.project-image-card {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .project-image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    /* src/components/Projects.css */
+
+/* ... previous styles ... */
+
+.git-button {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    margin-right: 40px; /* Adjust the margin value */
+    width: 130px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.demo-button {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 130px;
+    text-decoration: none ;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.git-button a,
+.demo-button a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set color to black */
+}

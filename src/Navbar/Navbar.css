@@ -1,0 +1,36 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke; /* Dark background color for the navbar */
+    padding: 20px 0; /* Remove horizontal padding, keep vertical padding */
+    color: black;
+    position: fixed;
+    width: 100%;
+
+
+  }
+
+  .navbar-right a{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif; /* Apply 'Roboto' font-family */
+        color: black;
+        margin-right: 20px;
+        font-size: 20px;
+  }
+
+  .navbar-right a:hover{
+
+    cursor: pointer;
+    font-size: 25px;
+    transition: all .3s ease-in;
+    
+  }
+  
+  .navbar-name {
+    
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif; /* Apply 'Roboto' font-family */
+  }
